@@ -2,6 +2,25 @@
     margin:0;
     padding: 0;
 }
+@font-face{
+    font-family:"Azo Sans";
+    src:url(font/AzoSans-Medium.ttf);
+    font-weight:500;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Azo Sans";
+    src:url(font/AzoSans-Regular.ttf);
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:"Azo Sans";
+    src:url(font/AzoSans-Bold.ttf);
+    font-weight:700;
+    font-style:normal;
+
+}
 .nav-cont{
     color:#fff !important;
     text-decoration: none;
@@ -56,12 +75,13 @@ body{
 }
 .partner_heading{
     font-family: 'Azo Sans';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 50px;
     color: white;
 }
 .partner_para{
     font-family: "Azo Sans";
+    font-weight:400;
     font-size: 20px;
     font-weight: 400;
     color: #79C91B;
