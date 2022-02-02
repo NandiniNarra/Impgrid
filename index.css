@@ -101,6 +101,7 @@ body{
     width:150px;
     color:rgba(255, 255, 255, 0.5);
     font-family: "Azo Sans";
+    font-weight:500;
 }
 .image-container{
     position:relative;
@@ -289,4 +290,5 @@ form .form-control::-webkit-input-placeholder {
 .span{
     color:#70C618;
 }
+
 
