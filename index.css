@@ -76,9 +76,10 @@ body{
     padding:13px 13px 13px 13px;
 }
 .card-head{
-    font-size:12px;
-    width:50px;
-    color:#FFFFFF;
+    font-style:normal;
+    font-size:24px;
+    width:150px;
+    color:rgba(255, 255, 255, 0.5);
     font-family: "Azo Sans";
 }
 .image-container{
@@ -268,3 +269,4 @@ form .form-control::-webkit-input-placeholder {
 .span{
     color:#70C618;
 }
+
