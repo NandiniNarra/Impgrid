@@ -41,6 +41,17 @@
     letter-spacing: 3px;
     border-bottom:1px solid #70C618 ;
 }
+.bubble-img{
+    position:relative;
+    animation: roundbox 2s infinite linear;
+    animation-direction:normal;
+    transition:.1s all linear;
+}
+@keyframes roundbox {
+    0%{left:0px; bottom:0px;}
+    50%{left:0px;bottom:75px}
+    100%{left:0px; bottom:10px;}
+}
 .login{
     color:#70C618;
     font-size:12px;
